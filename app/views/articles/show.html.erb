@@ -1,0 +1,16 @@
+<h1>
+  <%= @article.title %>
+</h1>
+ 
+<h2>
+  <%= @article.text %>
+</h1>
+ 
+<h3>Comments</h3>
+<%= render @article.comments %>
+ 
+<h4>Add a comment:</h4>
+<%= render 'comments/form' %>
+ 
+<%= button_to 'Edit', edit_article_path(@article), :method => "get" %>
+<%= button_to 'Back', articles_path, :method => "get" %>

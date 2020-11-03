@@ -1,0 +1,33 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+body {
+    background-image: linear-gradient(to bottom right, #2f66cd, #22c1c3);
+    width: 100%;
+    min-height:100vh;
+    background-size: cover; 
+}
+
+table {
+    width: 100%;
+    padding: 15px;
+}
+
+tr {
+    text-align: left;
+}
+
+#homepage-content {
+    text-align: center;
+}
+
+.index-header {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.post-actions {
+    width: 35px;
+}
